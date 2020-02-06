@@ -33,7 +33,7 @@ class Song
   def self.genre_count
     genre_count = {}
     @@genres.each do |genre|
-      if genre_count[genre] #this is telling us it will push the genre if it is already in the hash 
+      if genre_count[genre] #this is telling us it will push the genre if it is already in the hash
         genre_count[genre] += 1
       else
         genre_count[genre] = 1
