@@ -12,6 +12,8 @@ class Song
     @@song_count
   end
 
-  def genres
+  def genres=(genres)
+    @genres = genres
+    GENRES << genres
   end
 end
