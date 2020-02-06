@@ -20,9 +20,9 @@ class Song
     @@count
   end
 
-  def genres=(genres)
-    @genres = genres
-    #GENRES << genres
+  def self.genres
+    @@genres.uniq!
+    #uniq! method is used on an array to fetch the collection of all unique elements
   end
 
   def artists=(artists)
