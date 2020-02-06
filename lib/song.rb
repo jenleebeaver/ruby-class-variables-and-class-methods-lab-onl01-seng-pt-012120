@@ -22,10 +22,11 @@ class Song
 
   def self.genres
     @@genres.uniq!
+    #here we can use self to call on a getter method
     #uniq! method is used on an array to fetch the collection of all unique elements
   end
 
-  def artists=(artists)
+  def self.artists
     @artists = artists
   end
 end
