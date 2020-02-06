@@ -16,6 +16,6 @@ class Song
 
   def genres=(genres)
     @genres = genres
-    GENRES << genres
+    #GENRES << genres
   end
 end
