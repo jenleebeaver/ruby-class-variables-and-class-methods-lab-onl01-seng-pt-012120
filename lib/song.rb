@@ -18,4 +18,8 @@ class Song
     @genres = genres
     #GENRES << genres
   end
+
+  def artists=(artists)
+    @artists = artists 
+  end
 end
